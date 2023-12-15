@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout</title>
+    <!-- <link rel="stylesheet" href="design.css"> -->
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+    :root {
+        --borderclr: white;
+    }
+
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .mainbox {
+        width: 100vw;
+        background-color: black;
+        /* height: 100vh; */
+        border: 2px solid var(black);
+        margin: 1px;
+    }
+
+    .nav {
+        margin: 1px;
+        width: 100vw;
+        border: 4px solid var(--borderclr);
+        background-color: rgb(226, 138, 182);
+        /* border: 2px solid whitesmoke; */
+        height: 10vh;
+    }
+
+    ul li:hover {
+        background-color: deeppink;
+        color: white;
+    }
+
+    .nav ul {
+        display: flex;
+        list-style-type: none;
+        position: sticky;
+        top: 0;
+        justify-content: flex-start;
+        /* align-items: center; */
+        gap: 20px;
+        padding-left: 10px;
+        ;
+        font-size: 24px;
+        padding-top: 20px;
+
+    }
+
+    .subbox {
+        border: 4px solid var(--borderclr);
+        margin: 5px;
+        margin-bottom: 12px;
+        background-color: green;
+        display: flex;
+        gap: 25vw;
+        justify-content: center;
+        height: 50vh;
+        align-items: center;
+    }
+
+    .box {
+        margin: 10px;
+        border: 3px solid var(--borderclr);
+        width: 20vw;
+        height: 35vh;
+        border-radius: 3px;
+    }
+
+    .box1 {
+        background-color: rgb(249, 76, 185);
+
+    }
+
+    .box1 img {
+        width: 18vw;
+        height: 33vh;
+        margin-top: 1vh;
+        margin-bottom: 1vh;
+        margin-left: 1vw;
+        margin-right: 1vw;
+
+    }
+
+    .box2 {
+        background-color: rgb(84, 84, 233);
+
+    }
+
+    .box2 img {
+        width: 18vw;
+        height: 33vh;
+        margin-top: 1vh;
+        margin-bottom: 1vh;
+        margin-left: 1vw;
+        margin-right: 1vw;
+    }
+
+    .display {
+        border: 3px solid var(--borderclr);
+        width: 55vw;
+        border-radius: 5px;
+        height: 18vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        background-color: black;
+        color: whitesmoke;
+    }
+
+    .footer {
+        margin-top: 15px;
+        color: whitesmoke;
+    }
+
+    .logo {
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 5vw;
+        /* margin-top: -40px; */
+        align-items: flex-end;
+    }
+
+    .logo div {
+        border: 2px solid whitesmoke;
+        background-color: orange;
+        position: fixed;
+        border-radius: 50%;
+        width: 4vw;
+        height: 8vh;
+        margin-left: 20vw;
+    }
+</style>
+
+<body>
+    <div class="mainbox">
+        <div class="nav">
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Help</li>
+            </ul>
+        </div>
+        <div class="subbox">
+            <div class="box box1">
+                <img src="https://img.freepik.com/premium-photo/white-cat-with-blue-eyes-sitting-tree-generative-ai_733139-5721.jpg?size=626&ext=jpg&ga=GA1.1.1222169770.1702512000&semt=ais"
+                    alt="image">
+            </div>
+
+            <div class="box box2">
+                <img src="https://as1.ftcdn.net/v2/jpg/05/89/85/84/1000_F_589858465_YJPjzdrhcja5FUdILTWjsUlLKL6NWBbH.jpg"
+                    alt="">
+            </div>
+        </div>
+        <div class="display">
+            Welcome to Sigma Web-Development Course
+        </div>
+        <div class="logo">
+            <div>
+            </div>
+            <!-- <img src="C:\Users\Pramit\Desktop\Coding\WEB DEVELOPMENT\Assignments\exerecise 5\layout style.png" alt="elep"> -->
+        </div>
+        <div class="footer">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam repellat tempora ratione. Eveniet ut omnis
+            explicabo fuga fugiat natus repellat nisi assumenda enim! Quam et minima inventore sapiente aut animi
+            repudiandae beatae assumenda. Voluptates aliquam neque non suscipit ullam. Iusto tempore rem a ipsa ex
+            veritatis accusamus voluptates doloribus voluptas nihil. Molestias facilis dolor in error rerum culpa, ea
+            aliquid nulla beatae, alias perferendis voluptas ducimus dolorum dolore. Eaque sit expedita ut dolorum. Ipsa
+            rem quos accusamus, nemo autem et sed ex voluptates omnis. Repellendus, alias enim. Eaque animi
+            exercitationem voluptas repellat dicta esse, aliquam suscipit soluta sed necessitatibus harum quibusdam?
+            Atque dolor eaque rem reiciendis sequi, unde ab, iste perspiciatis libero vel suscipit repudiandae hic
+            tempore, vitae inventore dolorum saepe? Voluptates sunt quisquam repellendus saepe porro et tempore
+            provident? Similique perferendis commodi obcaecati ea alias totam nostrum illo iste doloremque saepe soluta
+            nobis temporibus harum, laboriosam velit accusamus error var(--borderclr)itiis libero fugiat mollitia
+            voluptate numquam qui? Non ipsa repellat veritatis sunt quaerat. Fugit enim reiciendis ducimus sit
+            praesentium ea error labore quod voluptatum quaerat. Ullam placeat rem, adipisci distinctio molestiae saepe
+            voluptatem deserunt! Laborum, delectus similique quaerat repellendus tenetur neque dolorem placeat modi
+            autem officiis, ad sed aperiam ea aut ipsa facilis. Nam dolores quo iure molestiae ducimus nostrum molestias
+            porro quas maxime! Magni tempore natus facere error a labore aperiam, fugiat reiciendis voluptatum quia
+            asperiores voluptate necessitatibus esse voluptates non eius praesentium dolorem animi voluptatem dicta
+            dignissimos autem. Beatae suscipit cupiditate, praesentium adipisci odit minima! Reiciendis hic ad laborum
+            necessitatibus est modi aut dicta nihil ex, recusandae eum debitis neque veritatis aliquam incidunt,
+            mollitia vel architecto! Quaerat reprehenderit totam quo quas placeat. A suscipit quidem voluptates
+            assumenda perferendis aperiam recusandae eos voluptatibus deleniti explicabo, aspernatur nihil sit amet
+            animi cum debitis excepturi praesentium laboriosam distinctio voluptate autem maiores atque magnam quia? Sed
+            tempore architecto error nostrum nisi quia voluptatem eaque tempora molestias sint debitis, pariatur,
+            placeat fugit accusamus nesciunt aliquam distinctio provident consequatur possimus a ea dicta vel. Inventore
+            vel aspernatur in assumenda ducimus maiores accusantium corrupti mollitia necessitatibus iusto eligendi
+            earum ipsa dignissimos, corporis perferendis officiis quo culpa enim quod asperiores rem? Atque accusantium
+            hic error rem veniam quaerat! Ex reiciendis error facere odit aliquam quod ipsam laboriosam rerum debitis
+            quas saepe soluta ut, deleniti fugiat maiores veniam asperiores ipsum provident eveniet eum aspernatur sequi
+            labore commodi similique? Accusantium doloremque sapiente laborum fugiat quis praesentium ab magni.
+        </div>
+    </div>
+</body>
+
+</html>
